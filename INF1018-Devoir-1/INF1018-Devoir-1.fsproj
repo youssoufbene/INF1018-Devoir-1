@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>INF1018_Devoir_1</RootNamespace>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="Devoir1.fs" />
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Include="Devoir1.fs" />
+		<Compile Include="Program.fs" />
+	</ItemGroup>
 
 </Project>
